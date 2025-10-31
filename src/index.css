@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#auto-save-toggle:checked ~ .dot {
+  transform: translateX(100%);
+  background-color: #ffffff;
+}
+
+/* Thêm các lớp mới để căn giữa Modal hoàn hảo */
+.modal-backdrop {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 50;
+    padding: 1rem;
+}
+
+.modal-content {
+    background-color: #FFFFFF; /* Hoặc màu secondary của bạn */
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    max-width: 56rem; /* Tăng max-width để modal rộng hơn */
+    max-height: 90vh;
+    overflow-y: auto;
+    position: relative;
+    animation: fadeIn 0.3s ease-out;
+}
+
+#auto-save-toggle:checked ~ .dot {
+  transform: translateX(100%);
+  background-color: #ffffff;
+}
+
+/* Thêm các lớp mới để căn giữa Modal hoàn hảo */
+.modal-backdrop {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 50;
+    padding: 1rem;
+}
+
+.modal-content {
+    background-color: #FFFFFF; /* Hoặc màu secondary của bạn */
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    max-width: 56rem; /* Tăng max-width để modal rộng hơn */
+    max-height: 90vh;
+    overflow-y: auto;
+    position: relative;
+    animation: fadeIn 0.3s ease-out;
+}
+
+
+/* AI Spinner styles */
+.ai-spinner-gradient {
+    border-top-color: #6366F1; /* accent */
+    border-right-color: #8B5CF6; /* a slightly different purple */
+    border-bottom-color: #EC4899; /* pink */
+    border-left-color: #10B981; /* green */
+    animation: spin 1.5s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Thêm CSS cho hiệu ứng viền 7 màu */
+@layer utilities {
+  @keyframes rainbow-spin {
+    to {
+      --rainbow-angle: 360deg;
+    }
+  }
+
+ .rainbow-border-running {
+    --rainbow-angle: 0deg;
+    position: relative;
+    border: 4px solid transparent; /* Tạo khoảng trống cho viền */
+    background-clip: padding-box; /* Chỉ hiển thị background bên trong border */
+    border-radius: 0.375rem; /* Hoặc giá trị radius mong muốn */
+  }
+
+  .rainbow-border-running::before {
+    content: '';
+    position: absolute;
+    inset: -4px; /* Phủ lên border transparent */
+    z-index: -1; /* Đặt dưới nội dung */
+    border-radius: inherit; /* Kế thừa border radius */
+    background: conic-gradient(
+      from var(--rainbow-angle),
+      hsl(360 100% 50%),
+      hsl(315 100% 50%),
+      hsl(270 100% 50%),
+      hsl(225 100% 50%),
+      hsl(180 100% 50%),
+      hsl(135 100% 50%),
+      hsl(90 100% 50%),
+      hsl(45 100% 50%),
+      hsl(0 100% 50%)
+    );
+    animation: rainbow-spin 2s linear infinite;
+  }
+}
+/* Kết thúc CSS viền 7 màu */

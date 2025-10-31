@@ -1,0 +1,198 @@
+{
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "createStory": "Create Story",
+    "youtubeScript": "YouTube Script",
+    "createPrompts": "Create Prompts",
+    "createThumbnail": "Create Thumbnail",
+    "createWhiskImage": "Create Whisk Image",
+    "createVideoVeo3": "Create Video Veo3/3.1",
+    "createVideoFromImage": "Video From Image",
+    "createVideoFromFrames": "Create Video from Frames",
+    "createExtendedVideo": "Create Extended Video",
+    "autoCreate": "Auto Idea",
+    "mergeVideos": "Merge Videos",
+    "history": "History",
+    "upgrade": "Upgrade",
+    "apiKeySettings": "API Key Settings",
+    "support": "Support",
+    "logout": "Logout"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "totalVideos": "Total Videos Created",
+    "successfulTotal": "Successful (Total)",
+    "successfulMonth": "Successful (Month)",
+    "successfulToday": "Successful (Today)",
+    "userInfo": {
+      "title": "User Information",
+      "name": "Name",
+      "email": "Email",
+      "package": "Package",
+      "expiry": "Expiry Date"
+    },
+    "credits": {
+      "saved": "You have saved",
+      "creditsVeo3": "Veo3 Credits",
+      "equivalent": "Equivalent to"
+    }
+  },
+  "userInfo": {
+    "toggleLanguage": "Đổi ngôn ngữ / Change Language",
+    "refresh": "Force Reload"
+  },
+  "common": {
+    "custom": "Custom",
+    "updating": "Updating",
+    "creating": "Creating",
+    "results": "Results",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "copyError": "Error copying",
+    "edit": "Edit",
+    "delete": "Delete",
+    "cancelEdit": "Cancel Edit"
+  },
+  "createStory": {
+    "mainTitle": "Story Management",
+    "description": "Create new stories, or generate titles and descriptions for existing ones.",
+    "tabs": {
+      "create": "Create Story",
+      "edit": "Edit Story",
+      "metadata": "Create Title/Desc",
+      "history": "History"
+    },
+    "inputType": {
+      "idea": "Enter Idea",
+      "url": "Enter Article URL"
+    },
+    "placeholders": {
+      "idea": "Example: an astronaut lost on Mars...",
+      "url": "https://example.com/article",
+      "customWords": "Enter word count",
+      "customStyle": "Enter your custom style"
+    },
+    "length": {
+      "title": "Length",
+      "1000": "1000 words",
+      "1000Time": "~1.5 min read",
+      "2000": "2000 words",
+      "2000Time": "~3 min read",
+      "3500": "3500 words",
+      "3500Time": "~5 min read",
+      "7000": "7000 words",
+      "7000Time": "~10 min read",
+      "10000": "10000 words",
+      "10000Time": "~15 min read",
+      "20000": "20000 words",
+      "20000Time": "~30 min read"
+    },
+    "customTime": {
+      "underMinute": "~ under 1 min read",
+      "minutes": "min read"
+    },
+    "style": {
+      "title": "Style",
+      "Kể chuyện": "Storytelling",
+      "Hành động/Chiến đấu": "Action/Combat",
+      "Tình cảm/Lãng mạn": "Romance",
+      "Hài hước/Vui nhộn": "Comedy/Funny",
+      "Kinh dị/Horror": "Horror",
+      "Bí ẩn/Trinh thám": "Mystery/Detective",
+      "Fantasy/Thần thoại": "Fantasy/Mythology",
+      "Khoa học viễn tưởng": "Sci-Fi",
+      "Drama/Chính kịch": "Drama",
+      "Giáo dục/Học tập": "Educational",
+      "Phiêu lưu/Thám hiểm": "Adventure/Exploration",
+      "Đời thường/Slice of Life": "Slice of Life",
+      "Tin tức": "News",
+      "Hoạt Hình": "Animation",
+      "Thể thao": "Sports",
+      "Du lịch": "Travel",
+      "Thời trang": "Fashion",
+      "Ẩm thực": "Food",
+      "Công nghệ": "Technology",
+      "Âm nhạc": "Music",
+      "Phim tài liệu": "Documentary",
+      "Quảng cáo/Marketing": "Advertising/Marketing",
+      "Giáo dục": "Education",
+      "Truyền cảm hứng": "Inspirational",
+      "Hướng dẫn/Tutorial": "Tutorial",
+      "Tin tức/Nhật ký thời sự": "News/Current Events",
+      "Phim ngắn": "Short Film",
+      "Trailer phim": "Movie Trailer",
+      "Phát triển dựa trên nội dung gốc": "Develop from source"
+    },
+    "buttons": {
+      "create": "Create Story",
+      "update": "Update Story"
+    },
+    "metadata": {
+      "selectStory": "Select Story",
+      "selectPlaceholder": "-- Select a story to generate Meta --",
+      "button": "Create Title, Description & Hashtags",
+      "title": "Title",
+      "description": "Description",
+      "hashtags": "Hashtags"
+    },
+    "history": {
+      "title": "Story History",
+      "empty": "No stories have been created yet.",
+      "metaTitle": "Title/Description History",
+      "metaEmpty": "No titles/descriptions created yet."
+    },
+    "notifications": {
+      "updated": "Story updated successfully!",
+      "created": "Story created successfully!",
+      "metaCreated": "Title, description, and hashtags created!"
+    },
+    "errors": {
+      "fillInfo": "Please fill in all fields.",
+      "generic": "An error occurred while creating the story. Please try again.",
+      "selectStory": "Please select a story.",
+      "storyNotFound": "Selected story not found.",
+      "metaApiFailed": "API did not return a valid title, description, and hashtags.",
+      "metaGeneric": "Error creating metadata.",
+      "noStories": "No stories available"
+    }
+  },
+  "createVideoFromFrames": {
+    "title": "Create Video from Frames (I2V)",
+    "description": "Upload a Start and End image for the AI to generate motion between them.",
+    "useCommonImages": "Use Common Images",
+    "commonStartImage": "Common Start Image",
+    "commonEndImage": "Common End Image",
+    "aspectRatio": "Aspect Ratio",
+    "aspectLandscape": "16:9 Landscape",
+    "aspectPortrait": "9:16 Portrait",
+    "streams": "Streams (4-8)",
+    "importPrompts": "Import Prompts (TXT)",
+    "autoSave": "Auto Save",
+    "savePathDefault": "Not set...",
+    "savePathChange": "Change",
+    "runAll": "Run All",
+    "runUnfinished": "Run Unfinished",
+    "retryFailed": "Retry {count} Failed",
+    "stop": "Stop",
+    "deleteAll": "Delete All",
+    "status": "Status",
+    "total": "Total",
+    "pending": "Pending",
+    "success": "Success",
+    "failed": "Failed",
+    "addPrompt": "Add Prompt",
+    "promptReady": "Ready",
+    "promptError": "Error!",
+    "promptWaiting": "Waiting...",
+    "promptStopped": "Stopped",
+    "promptPlaceholder": "Enter prompt describing the motion...",
+    "startImage": "Start Image",
+    "endImage": "End Image",
+    "download": "Download",
+    "runThisPrompt": "Run this prompt"
+  },
+  "createExtendedVideo": {
+    "title": "Create Extended Video (Sequential)",
+    "description": "Automatically generates a long video by linking prompts sequentially (Text-to-Video -> Image-to-Video)."
+  }
+}

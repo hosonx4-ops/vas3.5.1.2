@@ -1,0 +1,198 @@
+{
+  "sidebar": {
+    "dashboard": "Tổng quan",
+    "createStory": "Tạo Câu chuyện",
+    "youtubeScript": "Kịch bản YouTube",
+    "createPrompts": "Tạo Prompt Video",
+    "createThumbnail": "Tạo Ảnh Thumbnail",
+    "createWhiskImage": "Tạo Ảnh Whisk/Nano",
+    "createVideoVeo3": "Tạo Video Veo3/3.1",
+    "createVideoFromImage": "Tạo Video từ ảnh",
+    "createVideoFromFrames": "Tạo Video Đồng Nhất",
+    "createExtendedVideo": "Tạo video mở rộng",
+    "autoCreate": "Ý tưởng Tự Động",
+    "mergeVideos": "Ghép Video",
+    "history": "Lịch sử",
+    "upgrade": "Nâng cấp",
+    "apiKeySettings": "Cài đặt API Key",
+    "support": "Hỗ trợ",
+    "logout": "Đăng xuất"
+  },
+  "dashboard": {
+    "title": "Tổng quan",
+    "totalVideos": "Tổng Video Đã Tạo",
+    "successfulTotal": "Video Thành Công (Tổng)",
+    "successfulMonth": "Video Thành Công (Tháng)",
+    "successfulToday": "Video Thành Công (Hôm nay)",
+    "userInfo": {
+      "title": "Thông tin người dùng",
+      "name": "Tên",
+      "email": "Email",
+      "package": "Gói",
+      "expiry": "Ngày hết hạn"
+    },
+    "credits": {
+      "saved": "Bạn đã tiết kiệm được",
+      "creditsVeo3": "Credits Veo3",
+      "equivalent": "Tương đương"
+    }
+  },
+  "userInfo": {
+    "toggleLanguage": "Đổi ngôn ngữ / Change Language",
+    "refresh": "Làm mới (Force Reload)"
+  },
+  "common": {
+    "custom": "Tùy chỉnh",
+    "updating": "Đang cập nhật",
+    "creating": "Đang tạo",
+    "results": "Kết quả",
+    "copy": "Sao chép",
+    "copied": "Đã sao chép!",
+    "copyError": "Lỗi khi sao chép",
+    "edit": "Sửa",
+    "delete": "Xóa",
+    "cancelEdit": "Hủy Chỉnh sửa"
+  },
+  "createStory": {
+    "mainTitle": "Quản lý Câu chuyện",
+    "description": "Tạo câu chuyện mới, hoặc tạo tiêu đề và mô tả cho các câu chuyện đã có.",
+    "tabs": {
+      "create": "Tạo Câu chuyện",
+      "edit": "Chỉnh sửa câu chuyện",
+      "metadata": "Tạo Tiêu đề/Mô tả",
+      "history": "Lịch sử"
+    },
+    "inputType": {
+      "idea": "Nhập ý tưởng",
+      "url": "Nhập liên kết bài báo"
+    },
+    "placeholders": {
+      "idea": "Ví dụ: một phi hành gia bị lạc trên sao Hỏa...",
+      "url": "https://example.com/article",
+      "customWords": "Nhập số từ",
+      "customStyle": "Nhập phong cách của bạn"
+    },
+    "length": {
+      "title": "Độ dài",
+      "1000": "1000 từ",
+      "1000Time": "~1.5 phút đọc",
+      "2000": "2000 từ",
+      "2000Time": "~3 phút đọc",
+      "3500": "3500 từ",
+      "3500Time": "~5 phút đọc",
+      "7000": "7000 từ",
+      "7000Time": "~10 phút đọc",
+      "10000": "10000 từ",
+      "10000Time": "~15 phút đọc",
+      "20000": "20000 từ",
+      "20000Time": "~30 phút đọc"
+    },
+    "customTime": {
+      "underMinute": "~ dưới 1 phút đọc",
+      "minutes": "phút đọc"
+    },
+    "style": {
+      "title": "Phong cách",
+      "Kể chuyện": "Kể chuyện",
+      "Hành động/Chiến đấu": "Hành động/Chiến đấu",
+      "Tình cảm/Lãng mạn": "Tình cảm/Lãng mạn",
+      "Hài hước/Vui nhộn": "Hài hước/Vui nhộn",
+      "Kinh dị/Horror": "Kinh dị/Horror",
+      "Bí ẩn/Trinh thám": "Bí ẩn/Trinh thám",
+      "Fantasy/Thần thoại": "Fantasy/Thần thoại",
+      "Khoa học viễn tưởng": "Khoa học viễn tưởng",
+      "Drama/Chính kịch": "Drama/Chính kịch",
+      "Giáo dục/Học tập": "Giáo dục/Học tập",
+      "Phiêu lưu/Thám hiểm": "Phiêu lưu/Thám hiểm",
+      "Đời thường/Slice of Life": "Đời thường/Slice of Life",
+      "Tin tức": "Tin tức",
+      "Hoạt Hình": "Hoạt Hình",
+      "Thể thao": "Thể thao",
+      "Du lịch": "Du lịch",
+      "Thời trang": "Thời trang",
+      "Ẩm thực": "Ẩm thực",
+      "Công nghệ": "Công nghệ",
+      "Âm nhạc": "Âm nhạc",
+      "Phim tài liệu": "Phim tài liệu",
+      "Quảng cáo/Marketing": "Quảng cáo/Marketing",
+      "Giáo dục": "Giáo dục",
+      "Truyền cảm hứng": "Truyền cảm hứng",
+      "Hướng dẫn/Tutorial": "Hướng dẫn/Tutorial",
+      "Tin tức/Nhật ký thời sự": "Tin tức/Nhật ký thời sự",
+      "Phim ngắn": "Phim ngắn",
+      "Trailer phim": "Trailer phim",
+      "Phát triển dựa trên nội dung gốc": "Phát triển dựa trên nội dung gốc"
+    },
+    "buttons": {
+      "create": "Tạo câu chuyện",
+      "update": "Cập nhật Câu chuyện"
+    },
+    "metadata": {
+      "selectStory": "Chọn câu chuyện",
+      "selectPlaceholder": "-- Chọn một câu chuyện để tạo TĐ/MT --",
+      "button": "Tạo Tiêu đề, Mô tả & Hashtag",
+      "title": "Tiêu đề",
+      "description": "Mô tả",
+      "hashtags": "Hashtags"
+    },
+    "history": {
+      "title": "Lịch sử Câu chuyện",
+      "empty": "Chưa có câu chuyện nào được tạo.",
+      "metaTitle": "Lịch sử Tiêu đề/Mô tả",
+      "metaEmpty": "Chưa có Tiêu đề/Mô tả nào được tạo."
+    },
+    "notifications": {
+      "updated": "Câu chuyện đã được cập nhật!",
+      "created": "Câu chuyện đã được tạo thành công!",
+      "metaCreated": "Tạo tiêu đề, mô tả và hashtag thành công!"
+    },
+    "errors": {
+      "fillInfo": "Vui lòng nhập đủ thông tin.",
+      "generic": "Đã có lỗi xảy ra khi tạo câu chuyện. Vui lòng thử lại.",
+      "selectStory": "Vui lòng chọn một câu chuyện.",
+      "storyNotFound": "Không tìm thấy câu chuyện đã chọn.",
+      "metaApiFailed": "API không trả về đầy đủ tiêu đề, mô tả và hashtag.",
+      "metaGeneric": "Lỗi khi tạo metadata.",
+      "noStories": "Không có câu chuyện nào"
+    }
+  },
+  "createVideoFromFrames": {
+    "title": "Tạo video Đồng nhất bằng Ảnh/Khung hình",
+    "description": "Tải ảnh Bắt đầu và Kết thúc để AI tạo chuyển động giữa 2 khung hình.",
+    "useCommonImages": "Sử dụng ảnh chung",
+    "commonStartImage": "Ảnh Bắt đầu (Chung)",
+    "commonEndImage": "Ảnh Kết thúc (Chung)",
+    "aspectRatio": "Tỷ lệ",
+    "aspectLandscape": "16:9 Ngang",
+    "aspectPortrait": "9:16 Dọc",
+    "streams": "Luồng (4-8)",
+    "importPrompts": "Nhập Prompt (TXT)",
+    "autoSave": "Tự động lưu",
+    "savePathDefault": "Chưa chọn...",
+    "savePathChange": "Đổi",
+    "runAll": "Chạy tất cả",
+    "runUnfinished": "Chạy lại chưa xong",
+    "retryFailed": "Chạy lại {count} lỗi",
+    "stop": "Dừng",
+    "deleteAll": "Xóa tất cả",
+    "status": "Trạng thái",
+    "total": "Tổng",
+    "pending": "Đang chờ",
+    "success": "Hoàn thành",
+    "failed": "Thất bại",
+    "addPrompt": "Thêm Prompt",
+    "promptReady": "Chờ chạy...",
+    "promptError": "Lỗi!",
+    "promptWaiting": "Đang chờ...",
+    "promptStopped": "Đã dừng",
+    "promptPlaceholder": "Nhập prompt mô tả chuyển động...",
+    "startImage": "Ảnh Bắt đầu",
+    "endImage": "Ảnh Kết thúc",
+    "download": "Tải về",
+    "runThisPrompt": "Chạy prompt này"
+  },
+  "createExtendedVideo": {
+    "title": "Tạo video mở rộng (BETA)",
+    "description": "Tự động tạo video dài. Tính năng hiện tại đang Beta, quá trình tạo rất chậm."
+  }
+}
